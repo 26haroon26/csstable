@@ -1,0 +1,63 @@
+h1{
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(133, 82, 82);
+}
+body{
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+ul{
+    margin-top: 30px;
+    list-style-type: none;
+}
+img{
+    height:20px ;
+    width: 20px;
+}
+li{
+    color: rgb(133, 82, 82);
+    margin: 10px 0px 0px 0px;
+}
+table{
+text-align: center;
+    margin-top: 30px;
+    width: 50%;
+    
+}
+table,td,th{
+    border-collapse: collapse;
+}
+.firstrow{
+    font-weight: bold;
+    color: white;
+    background-color: rgb(177, 128, 223);
+}
+.even{
+    background-color: rgb(197, 172, 219);
+}
+.odd{
+    background-color: rgb(175, 137, 211);
+}
+fieldset{
+    color: rgb(9, 65, 65);
+    width: 50%;
+    border-radius: 5px;
+    margin-top: 30px;
+    background-color: rgb(213, 247, 248);
+}#name,#email,#checkbox,#member,#btn{
+    margin: 5px 5px;
+    border-radius: 5px;
+}
+#name:active,#email:active,#checkbox:active,#btn:active{
+    background-color: burlywood;
+}#name:hover,#email:hover,#checkbox:hover,#member:hover,#btn:hover,label:hover,legend:hover{
+    color: rgb(158, 48, 48);
+}::placeholder{
+    color: rgb(73, 0, 70);
+
+}legend{
+    font-style: italic;
+    font-weight: bolder;
+    color: rgb(107, 24, 10);
+}
